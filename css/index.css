@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.4);
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+     "Helvetica Neue", Arial, sans-serif,
+     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+     "Noto Color Emoji";
+    text-transform: capitalize;
+    /* margin: auto 0; */
+}
+
+h1{
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+h3{
+    color: #bac964;
+    width: 65%;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    text-align: center;
+}
+
+label{
+    margin-left: 15px;
+}
+
+.navigation{
+    background: whitesmoke;
+    width: 100%;
+    color: black;
+    height: 55px;
+    transition: height .2s linear;
+    position: fixed;
+    top: 1px;
+    overflow: hidden;
+    /* scroll-behavior: auto; */
+}
+
+.nav-content{
+    list-style: none;
+    /* display: none; */
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 0.7) !important
+}
+.nav-content-item{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+}
+
+section{
+    margin-top: 10px;
+}
+
+.introduction-content{
+    /* background: red; */
+    width: 72%;
+    padding-top: 10px;
+    font-size: 2rem;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 44%;
+    color: white;
+    font-weight: 400;
+}
+
+bold{
+    color:white;
+    font-weight: 600;
+}
+.heading-definition{
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-transform: uppercase;
+}
+.hire-me{
+    background-color:#bac964;
+    border-color:#bac964;
+    
+}
+
+.hire-me,
+.download-cv{
+    width: 123px;
+    height: 44px;
+    border-radius: 25px;
+    font-size: .9rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.download-cv{
+    width: 160px;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.portfolio-image{
+    max-width: 720px;
+    min-width: 350px;
+    width: 100%;
+    /* height: 500px; */
+}
+.portfolio-content{
+    background-image: url('/images/portfolio_image_edited.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 760px;
+    margin-top: 60px;
+}
+
+.featured-widget-item{
+    display: flex;
+    flex-direction: column;
+}
+.featured-widget-image{
+    width: 80%;
+    margin: auto;
+}
+
+.featured-widget-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-definition{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.featured-widget-heading{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.portfolio-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio-lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    padding: 20px;
+   
+}
+
+.education-widget,
+.experience-widget,
+.service-widget{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.education-widget-item,
+.experience-widget-item,
+.service-widget-item{
+    width: 80%;
+    background: #333;
+    margin: 25px 30px 10px 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 29px;
+    padding-left: 20px;
+}
+
+.education-period,
+.experience-period{
+    color: #fff;
+    font-size: 1rem;
+}
+.education-description,
+.experience-description,
+.service-description{
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+.section-heading{
+    margin-bottom: 50px;
+}
+
+.resume-headings{
+    margin-left: 23px;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.about-me-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+.about-me-image{
+    width: 65%;
+    margin: auto;
+}
+
+.about-me-main-description{
+    text-align: left;
+    margin-left: 5%;
+    width: 90%;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+.about-me-secondary-description{
+    text-align: left;
+    margin-left: 5%;
+    width: 90%;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    margin-bottom: 15%;    
+}
+
+.about-me-buttons{
+    margin: auto;
+}
+
+.icon-container{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #bac964;    
+    margin: auto;
+}
+
+.service-widget-image{
+    width: 70%;   
+    margin-left: 13px;
+    margin-top: 18px;
+}
+
+.service-heading{
+    color: #fff;
+    text-align: center;
+}
+
+.get-in-touch-heading{
+    text-align: left;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 100;
+}
+
+input{
+    background: #333;
+    border: 1px solid transparent;
+    width: 310px;
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+textarea{
+    background: #333;
+    border: 1px solid transparent;
+    width: 310px;
+    margin-bottom: 20px;
+    /* height: 30px; */
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.send-message{
+    width: 170px;
+    height: 44px;
+    border-radius: 25px;
+    font-size: .9rem;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #bac964;
+    border-color: #bac964;
+    margin-left: 14px;    
+    margin-top: 10px;
+}
+
+.get-in-touch-content{
+    margin-bottom: 60px;
+}
+
+.contact-details-heading,
+.get-in-touch-details-heading{
+    color: #fff;
+    font-weight: 100;
+    text-align: start;
+    margin-left: 6%;
+}
+
+.contact-details{
+    text-align: left;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+
+.contact-details-item{
+    margin: 10px 10px 30px 10px;
+}
+
+.contact-details-content{
+    margin-bottom: 50px;
+}
+
+.social-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icon-image{
+    width: 8%;
+    margin-left: 5%;
+}
+
+.social-icon{
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #bac964;
+    border-color: #bac964; */
+}
+.burger-container{
+    /*   width:100%; */
+    /*   height:300px; */    
+    cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    width: 46px;
+    height: 38px;
+    border: 2px solid rgb(206 200 216);
+    margin-top: 7px;
+    margin-left: 19px;
+    }
+    
+    .burger{
+        color: rgb(235, 219, 219);
+        width: 25px;
+        height: 1px;
+        top: 21px;
+        /* margin-left: 13px; */
+        position: relative;
+        background: black;
+        margin: auto;
+    }
+    .burger::before{
+      content:'';      
+      width: 25px;
+      height: 1px;
+      top: -8px;
+      margin-left:0px;
+      position: absolute;
+      background: black;
+    }
+    
+    .burger::after{
+      content:'';      
+      width: 25px;
+      height: 1px;
+      top: 8px;
+      margin-left:0px;
+      position: absolute;
+      background: black;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .navigation-list-item{
+        /* background: #b2c251;
+        border-color: #a7b941; */
+        color: #333;
+    }
+
+    /* For Desktop screens which have more than 991px wide */
+
+    @media screen and (min-width:992px){
+        h1{
+            font-size: 2.5rem;
+        }
+        .burger-container{
+            display: none;
+        }
+        .navigation{
+            height: 70px;
+        }
+
+        .nav-content{
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        
+        .nav-content-item:hover,
+        .portfolio-item:hover
+        {
+            color: #bac964;
+            transition:  .4s linear;
+            
+        }
+        
+        .portfolio-content{
+            background-image: url('/images/jhonny_depp_hd.jpg');
+            margin-bottom: 12%;
+        }
+
+        .active{
+            color: #bac964;
+        }
+        
+        .featured-widget-container{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .featured-widget-item{
+            /* flex-direction: row ; */
+            width: 33%;            
+        }
+
+        .resume-content {
+            margin-top:15%;
+        }
+
+        .education-experience-container{
+            display: flex;
+        }
+
+        .about-me-content{
+            margin-top: 13%;
+            margin-bottom: 20%;
+        }
+        
+        .about-me-container{
+            display: flex;
+            
+        }
+
+        .about-me-description-container{
+            margin-left: 15%;
+        }
+
+        .about-me-heading{
+            text-align: left;
+        }
+
+        .about-me-image{
+            width: 38%;
+            margin-left: 2%;
+        }
+
+        .about-me-main-description,
+        .about-me-secondary-description{
+            width: 60%;
+            margin-left: 0;
+        }
+
+        .about-me-secondary-description{
+                margin-bottom: 5%;
+        }
+        
+        .hire-me, .download-cv{
+            height: 36px;
+            cursor: pointer;
+        }        
+
+        .hire-me:hover{
+            background: #b2c251;
+            border-color: #a7b941;
+            transition: .3s;
+        }
+        .download-cv:hover{
+            color: #fff;
+            background-color: #5a6268;
+            border-color: #545b62;
+            transition: .3s;
+        }
+
+        .service-content{
+            margin-bottom: 15%;
+        }
+
+        .service-widget{
+            flex-direction: row;
+        }
+
+        .details-wrapper{
+            display: flex;
+            margin-top: 5%;
+            justify-content: space-evenly;
+        }
+
+        .get-in-touch-heading{
+            text-align: center;
+        }
+
+        .get-in-touch-form{
+            margin-top: 10%;
+        }
+        .contact-details-item{
+            margin: 52px 10px 30px 10px;
+        }
+
+        input{
+            width: 400px;
+            height: 40px;
+        }
+
+        textarea{
+            width: 400px;
+        }
+
+        .social-content{
+            margin-bottom: 10%;
+        }
+
+        .social-icons{
+            margin: auto;
+            
+        }
+
+        /* .social-icon-image:hover{
+            width: 8.5%;
+            transition: .3s;
+        } */
+        a{
+            text-decoration: none;
+        }
+
+        .navigation-list-item{
+            /* background: #b2c251;
+            border-color: #a7b941; */
+            color: #333;
+        }
+    }
