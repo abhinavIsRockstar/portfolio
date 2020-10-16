@@ -115,7 +115,7 @@ bold{
     /* height: 500px; */
 }
 .portfolio-content{
-    background-image: url('/images/portfolio_image_edited.jpg');
+    background-image: url('images/portfolio_image_edited.jpg');
     background-position: center;
     background-repeat: no-repeat;
     height: 760px;
@@ -429,7 +429,7 @@ textarea{
         }
         
         .portfolio-content{
-            background-image: url('/images/jhonny_depp_hd.jpg');
+            background-image: url('images/jhonny_depp_hd.jpg');
             margin-bottom: 12%;
         }
 
