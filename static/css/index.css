@@ -122,7 +122,11 @@ bold{
     /* height: 500px; */
 }
 .portfolio-content{
+<<<<<<< HEAD:static/css/index.css
     background-image: url('../images/pp.jpg');
+=======
+    background-image: url('../images/portfolio_image_edited.jpg');
+>>>>>>> fbb4808ff4071442a8c8481d5000ed9de2ae2179:css/index.css
     background-position: center;
     background-repeat: no-repeat;
     height: 760px;
@@ -442,7 +446,11 @@ textarea{
         }
         
         .portfolio-content{
+<<<<<<< HEAD:static/css/index.css
             background-image: url('../images/pp.jpg');
+=======
+            background-image: url('../images/jhonny_depp_hd.jpg');
+>>>>>>> fbb4808ff4071442a8c8481d5000ed9de2ae2179:css/index.css
             margin-bottom: 12%;
             background-size: cover;
 
