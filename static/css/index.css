@@ -5,12 +5,19 @@ body{
     font-size: 1rem;
     background-color: black;
     color: rgba(255, 255, 255, 0.4);
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    -apple-system: BlinkMacSystemFont, "Segoe UI", Roboto,
      "Helvetica Neue", Arial, sans-serif,
      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
      "Noto Color Emoji";
     text-transform: capitalize;
     /* margin: auto 0; */
+}
+
+
+img{
+    
+    cursor: pointer;
+    transition: width .2s linear;
 }
 
 h1{
@@ -115,11 +122,12 @@ bold{
     /* height: 500px; */
 }
 .portfolio-content{
-    background-image: url('/images/portfolio_image_edited.jpg');
+    background-image: url('../images/pp.jpg');
     background-position: center;
     background-repeat: no-repeat;
     height: 760px;
     margin-top: 60px;
+    background-size: cover;
 }
 
 .featured-widget-item{
@@ -159,6 +167,8 @@ bold{
 
 .portfolio-item{
     padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
    
 }
 
@@ -250,7 +260,7 @@ bold{
 
 .service-widget-image{
     width: 70%;   
-    margin-left: 13px;
+    margin-left: 14%;
     margin-top: 18px;
 }
 
@@ -393,10 +403,13 @@ textarea{
         text-decoration: none;
     }
 
+    
+
     .navigation-list-item{
         /* background: #b2c251;
         border-color: #a7b941; */
         color: #333;
+        transition: all 0.5s ease;
     }
 
     /* For Desktop screens which have more than 991px wide */
@@ -429,12 +442,28 @@ textarea{
         }
         
         .portfolio-content{
-            background-image: url('/images/jhonny_depp_hd.jpg');
+            background-image: url('../images/pp.jpg');
             margin-bottom: 12%;
+            background-size: cover;
+
         }
 
         .active{
             color: #bac964;
+        }
+
+        .website,
+        .pwa,
+        .ui{
+            display: inherit;
+        }
+
+        .disable_type{
+            display: none;
+        }
+
+        .hide_catogery{
+            display: none;
         }
         
         .featured-widget-container{
