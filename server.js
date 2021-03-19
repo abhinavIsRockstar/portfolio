@@ -21,13 +21,13 @@ app.set('view engine', 'ejs')
 
 const auth = {
     auth : {
-        api_key : 'a9942c316ff9e44354d667563767f981-2fbe671d-23a44bc7',
+        api_key : 'key-2ef14449d3aa2b5478a2668e524592ba',
         domain : 'sandboxa6405aa2cf0f40c6903659c4cf28f99e.mailgun.org'
     }
 }
 
 const transporter = nodeMailer.createTransport(mailGun(auth));
-let value ='jhkjh';
+let value ='';
 
 
 app.get('/', (req,res)=>{
@@ -41,6 +41,7 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/success', (req,res)=>{
+    console.log('inside success');
     res.render('success.ejs',{data: 'ok'})
 })
 
@@ -78,11 +79,13 @@ app.post('/submit_details', (req,res) => {
                 // cb(err,null);
             } else {
                 // cb(null,data);
+                
+               
                 console.log('inside mail sendMail');
                //  renderSuccess()
                 // res.render('success.ejs');  
                 // alert('success');     
-                // res.render('success.ejs', {message: 'email has been sent!'}) ;                                         
+                res.render('success.ejs', {data: 'email has been sent!'}) ;                                         
                 
             }            
            

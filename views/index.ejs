@@ -254,11 +254,11 @@
         </div>
     </section>    
     <section class="get-in-touch-content" id="get-in-touch-content">
-        <h1 class="get-in-touch-heading">Get in Touch</h1>
+        <!-- <h1 class="get-in-touch-heading">Get in Touch</h1>
         <div class="details-wrapper">
         <div class="form-container">
         <h1 class="get-in-touch-details-heading">get in touch</h1>
-         <p class="message">Yoo <%= data %> </p>   
+         <p class="message"> <%= data %> </p>   
         <form action="" method="" id="form" class="get-in-touch-form">
             
             <label for="name">Your Name</label><br>
@@ -275,7 +275,7 @@
 
         <button class="send-message" type="submit">send message</button>
         
-        </form>
+        </form> -->
         </div>
         
         <div class="contact-detail-container">
@@ -373,6 +373,7 @@
             $.post('/submit_details', data, function() {
                 console.log('Server recieved our data');
             });
+            $.get('/success');
         });
 </script>
 
