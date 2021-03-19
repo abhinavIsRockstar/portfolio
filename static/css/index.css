@@ -132,6 +132,7 @@ bold{
 .featured-widget-item{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .featured-widget-image{
     width: 80%;
