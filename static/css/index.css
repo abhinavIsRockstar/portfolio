@@ -142,6 +142,7 @@ bold{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 .featured-definition{
@@ -480,6 +481,7 @@ textarea{
 
         .education-experience-container{
             display: flex;
+            justify-content: space-evenly;
         }
 
         .about-me-content{
