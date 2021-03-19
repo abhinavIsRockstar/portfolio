@@ -49,7 +49,7 @@ label{
     height: 55px;
     transition: height .2s linear;
     position: fixed;
-    top: 1px;
+    top: 0px;
     overflow: hidden;
     /* scroll-behavior: auto; */
 }
