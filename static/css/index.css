@@ -248,6 +248,8 @@ bold{
 .about-me-image{
     width: 85%;
     margin: auto;
+    border-radius: 10px;
+
 }
 
 .about-me-main-description{
