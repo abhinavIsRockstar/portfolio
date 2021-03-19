@@ -67,7 +67,7 @@ label{
 }
 
 section{
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .introduction-content{
@@ -130,8 +130,8 @@ bold{
 }
 
 .featured-widget-item{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     text-align: center;
 }
 .featured-widget-image{
@@ -143,11 +143,11 @@ bold{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .featured-definition{
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-bottom: 25px;
 }
 
@@ -157,17 +157,23 @@ bold{
 }
 
 .portfolio-items{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
 
 .portfolio-lists{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* background: gray; */
+    /* margin: auto; */
+    /* margin-left: 0; */
+    padding: 0;
+    justify-content: center;
 }
 
 .portfolio-item{
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     text-transform: uppercase;
    
@@ -180,6 +186,7 @@ bold{
     flex-direction: column;
     margin-bottom: 35px;
     margin-top: 20px;
+    /* align-items: center; */
 }
 
 .education-widget-item,
@@ -187,12 +194,15 @@ bold{
 .service-widget-item{
     width: 80%;
     background: #333;
-    margin: 25px 30px 10px 18px;
+    /* margin: 25px 30px 10px 7%; */
     border: 1px solid transparent;
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 29px;
     padding-left: 20px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5%;
 }
 
 .education-period,
@@ -223,7 +233,7 @@ bold{
     display: flex;
     flex-direction: column;
     margin-top: 40%;
-    margin-bottom: 40%;
+    margin-bottom: 30%;
 }
 
 .about-me-container{    
@@ -232,13 +242,13 @@ bold{
     }
 
 .about-me-image{
-    width: 65%;
+    width: 85%;
     margin: auto;
 }
 
 .about-me-main-description{
     text-align: left;
-    margin-left: 5%;
+    margin-left: 7%;
     width: 90%;
     line-height: 1.8rem;
     font-size: 1.2rem;
@@ -247,11 +257,11 @@ bold{
 
 .about-me-secondary-description{
     text-align: left;
-    margin-left: 5%;
+    margin-left: 7%;
     width: 90%;
     line-height: 1.8rem;
     font-size: 1rem;
-    margin-bottom: 15%;    
+    margin-bottom: 10%;    
 }
 
 .about-me-buttons{
@@ -553,9 +563,24 @@ textarea{
             transition: .3s;
         }
 
+        .education-widget-item,
+        .experience-widget-item,
+        .service-widget-item{
+            width: 80%;
+            background: #333;
+            margin: 25px 30px 10px 18px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 29px;
+            padding-left: 20px;
+        }
+
         .service-content{
             margin-bottom: 15%;
         }
+
+     
 
         .service-widget{
             flex-direction: row;
@@ -575,7 +600,7 @@ textarea{
             margin-top: 10%;
         }
         .contact-details-item{
-            margin: 52px 10px 30px 10px;
+            /* margin: 52px 10px 30px 10px; */
         }
 
         input{
