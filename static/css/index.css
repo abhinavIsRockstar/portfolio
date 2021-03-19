@@ -444,6 +444,7 @@ textarea{
         .portfolio-content{
             background-image: url('../images/pp.jpg');
             margin-bottom: 12%;
+            background-size: cover;
             
         }
 
