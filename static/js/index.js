@@ -49,14 +49,43 @@ function activeFeaturedContent(text){
     console.log(text.toLowerCase(),'inside activeFeaturedContent');
     console.log(array_featured_widget[0].dataset.type,'inside active loop')
 
-    for(let i=0;i<array_featured_widget;i++){
+    for(let i=0;i<array_featured_widget.length;i++){
         console.log(array_featured_widget[i].dataset.type,'inside active loop')
-        if(array_featured_widget[i].dataset.type !=text.toLowerCase()){
-            array_featured_widget[i].target.classList.add('disable_type')
+        if(text ==='ALL'){
+            array_featured_widget[i].classList.remove('disable_type')
+            // array_featured_widget[i].classList.add('disable_type')
+        }
+        else if(array_featured_widget[i].dataset.type !=text.toLowerCase()){
+            array_featured_widget[i].classList.add('disable_type')
+        } 
+        // else if(array_featured_widget[i].dataset.type =='ALL'){
+        //     array_featured_widget[i].classList.remove('disable_type')
+        // }
+         else if(array_featured_widget[i].dataset.type ==text.toLowerCase()){
+            array_featured_widget[i].classList.remove('disable_type')
         }
     }
 
-}
+    // for(let i =0; i<array_featured_widget.length; i++){
+        
+    //     if(text ==='ALL'){
+    //        array_featured_widget[i].classList.add('disable_type');
+          
+    //     }
+
+    //     else{
+    //         array_featured_widget[i].classList.add('active_type');
+    //     }
+        
+        // else if(array_featured_widget[i].dataset.type == text.toLowerCase()){
+        //         array_featured_widget[i].classList.add('active_type');
+        //         array_featured_widget[i].classList.remove('disable_type');
+        // }
+        
+
+    }
+
+
 
 
 // portfolioLists.addEventListener('click', (e)=>{
