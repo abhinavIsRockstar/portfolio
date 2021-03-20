@@ -35,8 +35,8 @@ app.get('/', (req,res)=>{
     // console.log(pathroute,'pathroute')
     console.log('inside /')
     // res.sendFile(path.join(__dirname,'/static','/index.html'));
-    res.render('index.ejs',{data:value})
-    // res.sendFile(path.join(__dirname,'static','index.html'));
+    // res.render('index.ejs',{data:value})
+    res.sendFile(path.join(__dirname,'static','index.html'));
     
 })
 
