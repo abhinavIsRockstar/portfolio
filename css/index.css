@@ -484,11 +484,11 @@ textarea{
             color: #bac964;
         }
 
-        .website,
+        /* .website,
         .pwa,
         .ui{
             display: inherit;
-        }
+        } */
 
         .disable_type{
             display: none;
